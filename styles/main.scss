@@ -1,0 +1,123 @@
+@import './config/var.scss';
+
+body {
+    background-color : #F9F9F9;
+    font-family: $font-primary;
+    margin: 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.103);
+    border-radius: 20px;
+    width: 35rem;
+    height: 18rem;
+    background-color : $color-primary;
+    &:hover{
+        border: 2px solid $color-secondary;
+        transition: ease-in-out 0.4s;
+    }
+}
+.card-button {
+    padding: 0.5rem 2rem;
+    width:5rem;
+    border: 2px solid transparent;
+    border-radius: $border-radius;
+    color: $color-primary;
+    background-color: $color-secondary;
+    text-decoration: none;
+    text-align: center;
+    font-weight:400;
+    &:hover{
+        border: 2px solid $color-secondary;
+        background-color:transparent;
+        color:black;
+        transition: ease-in-out 0.4s;
+    }
+}
+
+.button {
+    margin: 0 5rem;
+    width:12rem;
+    height: 2rem;
+    border: 2px solid transparent;
+    border-radius: $border-radius;
+    color: $color-primary;
+    background-color: $color-secondary;
+    text-decoration: none;
+    text-align: center;
+    font-weight:400;
+    &:hover{
+        border: 2px solid $color-secondary;
+        background-color:transparent;
+        color:black;
+        transition: ease-in-out 0.4s;
+    }
+}
+
+.card-company-title {
+    font-size: 20px;
+}
+
+.card-company-name, .card-company-location, .card-company-date, .card-company-desc, .contract-type {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.container{
+    z-index: 0;
+    padding: 8rem 3rem;
+    width: 90vw;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    background-color: #F9F9F9;
+}
+.card-controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.article-container{
+    padding-top:8rem;
+    width: 100vw;
+    height: 80vh;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    height: 90%;
+}
+.input{
+    width: 20%;
+    height: 4%;
+    padding: 0 2rem;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+.title-second {
+    text-align: center;
+}

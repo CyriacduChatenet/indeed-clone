@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mFAAI",
+    "sources": [
+        "var.scss",
+        "font.scss"
+    ],
+    "names": [],
+    "file": "var.css"
+}

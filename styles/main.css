@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+body {
+  background-color: #F9F9F9;
+  font-family: "Noto sans";
+  margin: 0;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  -webkit-box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.103);
+          box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.103);
+  border-radius: 20px;
+  width: 35rem;
+  height: 18rem;
+  background-color: #fff;
+}
+
+.card:hover {
+  border: 2px solid #2557a7;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.card-button {
+  padding: 0.5rem 2rem;
+  width: 5rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #2557a7;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+}
+
+.card-button:hover {
+  border: 2px solid #2557a7;
+  background-color: transparent;
+  color: black;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.button {
+  margin: 0 5rem;
+  width: 12rem;
+  height: 2rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #2557a7;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+}
+
+.button:hover {
+  border: 2px solid #2557a7;
+  background-color: transparent;
+  color: black;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.card-company-title {
+  font-size: 20px;
+}
+
+.card-company-name, .card-company-location, .card-company-date, .card-company-desc, .contract-type {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.container {
+  z-index: 0;
+  padding: 8rem 3rem;
+  width: 90vw;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 6rem;
+  background-color: #F9F9F9;
+}
+
+.card-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+.article-container {
+  padding-top: 8rem;
+  width: 100vw;
+  height: 80vh;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.input {
+  width: 20%;
+  height: 4%;
+  padding: 0 2rem;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.title-second {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
